@@ -2,6 +2,8 @@
 
 #### Rémi Vion
 
+Toutes les images sont dans le dossier VION/images
+
 ### Introduction
 
 Le but de ce TP est de d’implanter en C différentes opérateurs de TI et de les tester sur des images réelles et de synthèse.
