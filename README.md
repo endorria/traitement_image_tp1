@@ -7,20 +7,19 @@
 Le but de ce TP est de d’implanter en C différentes opérateurs de TI et de les tester sur des images réelles et de synthèse.
 
 
-    Votre compte-rendu sera une archive zip (exclusivement) à votre nom. Cette archive devra contenir un répertoire à votre nom, contenant les différences codes C ainsi que le comptre rendu au format pdf. L’archive sera à envoyer par mail à l’adresse andres.romero@lri.fr. Le sujet de ce mail sera APP5_TI. Le respect de ces consignes ainsi que la qualité des commentaires (dans le compte-rendu) et dans les codes sources sera prise en compte dans l’évaluation. Pour visualiser les images au format PGM (binaire) : différents viewers sont disponibles comme Irfanview ou XnView.
-    Remplir fonctions vides dans les fichiers:
-    
-    * filterNRC
-    * lutNRC
-    * morphoNR
-
-Travail à faire
-
-Le travail à faire reprend les différentes étapes de la figure 1.
+### Travail à faire
 
     ajouter les codes d’opérateurs manquant dans les fichiers filterNRC, lutNRC et morphoNR.
+
+Fait, sauf pour la FGL
+
     ajouter des noms d’images à traiter ou à retraiter (image avec bruit gaussien ou avec bruit impul- sionnel) dans les fonctions test_.
+
+Fait
+
     ajouter des nouveaux appels à des fonctions de traitement (nouvelle valeur de paramètre) dans les fonctions routine_.
+
+Fait
 
 ### Bruitage
 
