@@ -86,10 +86,6 @@ void sobel_ui8matrix(uint8 **X, int i0, int i1, int j0, int j1, uint8 **Y)
     Ky[1][1]=1;
 
 
-    // display_si8matrix(Kx, -1, 1, -1, 1, "%4d", "Kx");
-    // display_si8matrix(Ky, -1, 1, -1, 1, "%4d", "Ky");
-    // getchar();
-
     T = ui8matrix(i0-1, i1+1, j0-1, j1+1);
     zero_ui8matrix(T, i0-1, i1+1, j0-1, j1+1);
     dup_ui8matrix(X, i0, i1, j0, j1, T);
